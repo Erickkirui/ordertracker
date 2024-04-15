@@ -1,0 +1,20 @@
+.order-priority{
+   display: grid;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   gap: 2rem;
+   margin-top: 20%;
+}
+.order-priority button{
+    padding: 15px;
+    background-color: var(--static);
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.order-priority button:hover{
+    color: var(--static);
+    background-color: var(--primary);
+}

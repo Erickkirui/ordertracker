@@ -1,0 +1,34 @@
+
+.landing-page-container{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   margin-top: 20%;
+    
+}
+.home-buttons{
+    display : grid;
+    gap : 1rem;
+}
+.home-buttons h2{
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 1.1px;
+}
+.home-buttons button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    letter-spacing: 1.14px;
+}
+
+.add-orders{
+ background-color: var(--static);
+
+}
+.view-orders{
+background-color: var(--primary);
+color: var(--static);
+}

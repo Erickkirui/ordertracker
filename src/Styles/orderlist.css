@@ -1,0 +1,28 @@
+.order-table {
+    border-collapse: collapse; /* Merge borders between cells */
+    width: 100%; /* Ensure table takes full width */
+    text-align: left;
+   
+  }
+  
+  
+  .order-table th, .order-table td {
+    border-bottom: 1px solid #ccc; /* Add border to each table cell */
+    padding: 5px; /* Add padding to improve spacing */
+  }
+  
+  .pagination button{
+    padding: 5px;
+    border: solid 1px #ccc;
+    background-color: white;
+    border-radius:3px ;
+    box-shadow: 3px 5px var(--border);
+    width: 2rem;
+    transition: box-shadow 0.3s ease-out;
+}
+
+.pagination button:hover{
+    box-shadow: none;
+    color: white;
+    background-color: var(--primary);
+}
