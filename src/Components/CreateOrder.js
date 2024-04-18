@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Alert from '@mui/material/Alert';
+import { Link } from 'react-router-dom';
 
 function CreateOrder() {
   const [customerName, setCustomerName] = useState('');
@@ -92,6 +93,10 @@ function CreateOrder() {
         <button type="submit" className='creat-order-button'>Submit order</button>
       </form>
       {message && <p>{message}</p>}
+
+      <div>
+        <Link to="/orderselection"> <p>View Orders</p> </Link>
+      </div>
     </div>
   );
 }
